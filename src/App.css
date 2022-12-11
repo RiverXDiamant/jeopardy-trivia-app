@@ -18,16 +18,15 @@ h1 {
 .game-board {
   font-size: 20px;
   color: antiquewhite;
-  border: solid black 4px;
   height: 90vh;
 }
 
-/* Buttons */
+/* Question Button */
 
 .get-question > button {
   font-size: 20px;
-  width: 10em;
-  height: 60px;
+  width: 8em;
+  height: 50px;
   color: antiquewhite;
   border: solid black 1px;
   border-radius: 15px;
@@ -36,4 +35,28 @@ h1 {
 
 .get-question > button:hover {
   background-color: rgb(71, 64, 64);
+}
+
+/* Answer Button */
+.game-answers > button {
+  font-size: 20px;
+  width: 20em;
+  height: 50px;
+  color: antiquewhite;
+  border: solid black 1px;
+  background-color: rgb(8, 7, 88);
+}
+.game-answers > button:hover {
+  background-color: rgb(71, 64, 64);
+}
+
+/* Score Buttons */
+.score-buttons > button {
+  margin: 5px;
+  font-size: 20px;
+  width: 5em;
+  height: 50px;
+  color: antiquewhite;
+  border: solid black 1px;
+  border-radius: 15px;
 }
