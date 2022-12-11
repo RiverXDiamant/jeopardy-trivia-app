@@ -26,11 +26,12 @@ h1 {
 
 .get-question > button {
   font-size: 20px;
-  width: 40em;
-  height: 50px;
-  color: white;
-  border: solid black 4px;
-  background-color: rgb(4, 4, 150);
+  width: 10em;
+  height: 60px;
+  color: antiquewhite;
+  border: solid black 1px;
+  border-radius: 15px;
+  background-color: rgb(207, 152, 33);
 }
 
 .get-question > button:hover {
