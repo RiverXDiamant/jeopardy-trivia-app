@@ -1,14 +1,10 @@
-body {
+.App {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-}
-
-.App {
   text-align: center;
   background-color: #0b6983;
-  width: 75vw;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
