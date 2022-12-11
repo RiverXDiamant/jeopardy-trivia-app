@@ -60,3 +60,16 @@ h1 {
   border: solid black 1px;
   border-radius: 15px;
 }
+
+#decrease {
+  background-color: rgb(194, 83, 83);
+}
+
+#increase {
+  background-color: rgb(35, 118, 121);
+}
+
+#reset {
+  color: black;
+  background-color: red;
+}
