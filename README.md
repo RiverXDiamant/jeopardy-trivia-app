@@ -1,4 +1,4 @@
-# Make a Jeopardy Trivia App using jService!
+# Jeopardy Trivia App using jService!
 
 <p>
 <img src="https://i.imgur.com/gw3cvyD.png" alt="Sample Jeopardy Trivia App Appearance" />
@@ -6,7 +6,7 @@
 
 Make a button labeled "Random Trivia Question" or "Get Question" or something descriptive.
 On click, have this button make a GET request to get random trivia data. Let's start you off with a win by giving you the URL:  http://jservice.io/api/random
-Make some html elements like a divwhere you will display the question, category and points. NOTE: You will need to look at the data that is returned to you and think back about how to access data from different datatypes (is it an array within an object? How do you access the info?).
+Make some html elements like a div where you will display the question, category and points. NOTE: You will need to look at the data that is returned to you and think back about how to access data from different data types (is it an array within an object? How do you access the info?).
 Make another div in your HTML where you display the answer
 Add an on click function that toggles whether or not you can see the answer.
 Add other elements to your page to make it make sense and look good (see attached image)
