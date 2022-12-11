@@ -5,7 +5,8 @@
 export default function GetQuestion() {
   return (
     <div className="get-question">
-      <button>Click to Reveal Question</button>
+      <h2>Let's Play:</h2>
+      <button> Get Question</button>
     </div>
   );
 }
