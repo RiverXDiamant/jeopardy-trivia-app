@@ -1,6 +1,9 @@
+body {
+  overflow: hidden;
+}
 .App {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   text-align: center;
   background-color: #0b6983;
   width: 100vw;
@@ -10,4 +13,26 @@
 h1 {
   font-size: 50px;
   color: antiquewhite;
+}
+
+.game-board {
+  font-size: 20px;
+  color: antiquewhite;
+  border: solid black 4px;
+  height: 90vh;
+}
+
+/* Buttons */
+
+.get-question > button {
+  font-size: 20px;
+  width: 40em;
+  height: 50px;
+  color: white;
+  border: solid black 4px;
+  background-color: rgb(4, 4, 150);
+}
+
+.get-question > button:hover {
+  background-color: rgb(71, 64, 64);
 }
