@@ -1,4 +1,3 @@
-import React from "react";
 // import useState
 import { useState } from "react";
 
