@@ -1,25 +1,31 @@
 // components
-// import React from "react";
 import { useState } from "react";
 
 import Categories from "./Category";
 import Points from "./Points";
 import Answers from "./Answer";
-// import component
 
-export default function GetQuestion() {
+export default function Question(props) {
+  const url = "https://jservice.io/api/random";
+
   const [question, setQuestion] = useState(null);
 
-  const fetchQuestion = async () => {
-    const response = await fetch(" https://jservice.io/api/random");
-    const data = await response.json();
-    setQuestion(data);
+  const getQuestion = async () => {
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      setQuestion(data);
+    } catch (err) {
+      console.error(err);
+    }
   };
+
   const [showQuestion, setShowQuestion] = useState(null);
 
   const revealQuestion = () => {
     setShowQuestion((toggle) => !toggle);
   };
+
   return (
     <div className="get-question">
       <h2>Let's Play! </h2>
