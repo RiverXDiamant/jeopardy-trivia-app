@@ -1,5 +1,5 @@
 // components
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Categories from "./Category";
 import Points from "./Points";
@@ -20,6 +20,9 @@ export default function Question(props) {
     }
   };
 
+  useEffect(() => {
+    getQuestion();
+  });
   const [showQuestion, setShowQuestion] = useState(null);
 
   const revealQuestion = () => {
