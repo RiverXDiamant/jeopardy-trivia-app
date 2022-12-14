@@ -4,6 +4,9 @@
 <img src="https://i.imgur.com/gw3cvyD.png" alt="Sample Jeopardy Trivia App Appearance" />
 </p>
 
+My Netlify
+<a href="https://riverxdiamant-jeopardy-trivia.netlify.app/">Jeopardy Trivia</a>
+<hr />
 Make a button labeled "Random Trivia Question" or "Get Question" or something descriptive.
 On click, have this button make a GET request to get random trivia data. Let's start you off with a win by giving you the URL:  http://jservice.io/api/random
 Make some html elements like a div where you will display the question, category and points. NOTE: You will need to look at the data that is returned to you and think back about how to access data from different data types (is it an array within an object? How do you access the info?).
